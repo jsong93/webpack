@@ -12,7 +12,7 @@ const bt = document.createElement('button');
 bt.innerHTML = 'pup';
 bt.addEventListener('click', e =>
   import(/* webpackChunkName: 'lodash' */ 'lodash').then(_ =>
-    console.log(_.join(['hello', 'pup']), ' ')
+    console.log(_.join(['hello', 'pup'], ' '))
   )
 );
 // console.log(_.join(['hello', 'pup']), ' ');

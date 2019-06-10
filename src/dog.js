@@ -4,7 +4,7 @@ export class Dog {
     this.name = name;
   }
   bark() {
-    console.log(_.join(['hello', 'dog']), ' ');
+    console.log(_.join(['hello', 'dog']), '11 ');
     return `${this.name} 汪汪`;
   }
 }
